@@ -19,7 +19,7 @@ namespace :maintenance do
 
       rendered_fullpath = "#{rendered_path}/#{rendered_name}"
       upload! StringIO.new(result), rendered_fullpath
-      execute "chmod 644 #{rendered_fullpath}"
+      #execute "chmod 644 #{rendered_fullpath}"
     end
   end
 
